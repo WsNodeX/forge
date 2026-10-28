@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Trained artifacts produced by the trainer (keep the source, ignore outputs)
+trained_vocab.json
+*.vocab.json
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
