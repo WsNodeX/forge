@@ -10,6 +10,9 @@ Training is fully deterministic for a given corpus, which makes the resulting
 vocabulary reproducible and testable.
 """
 
+from __future__ import annotations
+
+
 from collections import Counter
 from typing import Dict, Iterable, List, Tuple
 
