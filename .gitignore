@@ -19,3 +19,12 @@ trained_vocab.json
 .DS_Store
 .idea/
 .vscode/
+# Local secrets — never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
