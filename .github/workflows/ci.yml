@@ -35,3 +35,11 @@ jobs:
           python -m forge.cli info
           python -m forge.cli encode "Tokenization is the silent hero of every model."
           python -m forge.cli tokens "hello world" | head -n 3
+
+        # The examples are the first thing a visitor runs and nothing was
+        # checking them. All four repositories here had at least one example
+        # that failed from a fresh clone.
+        - name: Run examples
+          run: |
+            python examples/demo.py
+            python examples/train_from_corpus.py
